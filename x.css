@@ -1,0 +1,71 @@
+*
+{
+	margin:0px;
+	padding:-10px;
+}
+body
+{
+	background-color:powderblue;
+	overflow-x: hidden; /* Hide horizontal scrollbar */
+    overflow-y: scroll; /* Add vertical scrollbar */
+}
+.header
+{	position:relative;
+	top:-20px;
+	height: 100px;
+    width: 100%;
+    background-color:#008080;
+}
+
+.container
+{
+	position:relative;
+}
+.hero
+{
+	position:relative;
+	left:90%;
+	bottom:80px;
+}
+#happy
+{
+	position:relative;
+	right:90%;
+}
+#search2
+{
+	position:relative;
+	bottom:150px;
+	left:30%;
+	width:40%;
+	border-radius: 25px;
+}
+.col-md-4
+{
+	width:300px;
+	height:500px;
+	padding:50px;
+}
+#box
+{
+	background-image:url(back.jpg);
+	position:relative;
+bottom:20px;
+}
+.container
+{
+	background-color:powderblue;
+}
+#quote{
+	font-family: 'Oswald', sans-serif;
+font-weight: 500;
+font-size:20px;
+position:relative;
+bottom:50px;
+}
+#me
+{
+	font-family: 'Oswald', sans-serif;
+font-weight: 500;
+font-size:20px;
+}	

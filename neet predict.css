@@ -1,0 +1,86 @@
+*
+{
+	margin:0px;
+	padding:0px;
+}
+body
+{
+	background-color:powderblue;
+	overflow-x: hidden; /* Hide horizontal scrollbar */
+    overflow-y: scroll; /* Add vertical scrollbar */
+}
+#header
+{	position:relative;
+	height: 100px;
+    width: 100%;
+    background-color:#008080;
+	top:-10px;
+}
+#Homebar
+{
+	position:relative;
+	top:50px;
+	
+	height:50px;
+	width:100%;
+}
+li
+{
+	display:inline;
+    color: white;
+    padding: 14px 16px;
+}
+li:hover 
+{
+    background-color:powderblue;
+	display:block;
+}
+#college
+{
+	position:absolute;
+	left:42%;
+	top:10px;
+	display:box;
+}
+#rank
+{
+	position:absolute;
+	left:50%;
+	top:10px;
+}
+#contact
+{
+	position:absolute;
+	left:55%;
+	top:10px;
+}
+
+
+img
+{
+	width:100%;
+	height:30%;
+}
+.container
+{
+	position:relative;
+	top:-10px;
+}
+#footer
+{
+	background-color:powderblue;
+	width:100%;
+	height:400px;
+
+}
+footer
+{
+	background-color:#008080;
+	width:100%;
+	height:100px;
+}
+#scroll
+{
+	background-color:powderblue;
+}
+

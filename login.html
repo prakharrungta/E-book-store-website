@@ -1,0 +1,50 @@
+<?php include('server.php') ?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration system PHP and MySQL</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<div class="header">
+		<h2>Modal Login Form</h2>
+
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="login.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+   	<?php include('errors.php'); ?>
+
+		<div class="input-group">
+			<label>Username</label>
+			<input type="text" name="username" >
+		</div>
+		<div class="input-group">
+			<label>Password</label>
+			<input type="password" name="password">
+		</div>
+		<div class="input-group">
+			<button type="submit" class="btn" name="login_user">Login</button>
+		</div>
+		<p>
+			Not yet a member? <a href="register.php">Sign up</a>
+		</p>
+	</form>
+	<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+</body>
+</html>
